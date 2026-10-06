@@ -1,0 +1,7 @@
+{
+  "uuid": "professional-dashboard@enock.local",
+  "name": "Professional Bento Dashboard",
+  "description": "Asymmetric system bento, Epitech agenda, weather and dynamic music for GNOME 50.",
+  "shell-version": ["50"],
+  "version": 1
+}

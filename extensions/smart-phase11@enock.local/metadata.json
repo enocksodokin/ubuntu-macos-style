@@ -1,0 +1,7 @@
+{
+  "uuid": "smart-phase11@enock.local",
+  "name": "Smart Desktop Phase 11",
+  "description": "Three-finger Show Desktop, Cover Flow window selector, Activity, Weather and Focus.",
+  "shell-version": ["50"],
+  "version": 1
+}

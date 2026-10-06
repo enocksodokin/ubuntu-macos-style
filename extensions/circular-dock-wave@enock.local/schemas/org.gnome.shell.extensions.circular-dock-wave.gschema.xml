@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.circular-dock-wave"
+          path="/org/gnome/shell/extensions/circular-dock-wave/">
+    <key name="max-scale" type="d">
+      <default>1.38</default>
+      <range min="1.0" max="2.5"/>
+      <summary>Zoom maximal</summary>
+      <description>Facteur d'agrandissement de l'icône sous la souris.</description>
+    </key>
+    <key name="wave-radius" type="d">
+      <default>145</default>
+      <range min="40" max="500"/>
+      <summary>Rayon de la vague (px)</summary>
+      <description>Distance horizontale sur laquelle les icônes voisines grossissent.</description>
+    </key>
+    <key name="spread" type="d">
+      <default>4.5</default>
+      <range min="0" max="20"/>
+      <summary>Écartement (px)</summary>
+      <description>Décalage latéral des icônes voisines.</description>
+    </key>
+    <key name="follow-ms" type="d">
+      <default>55</default>
+      <range min="0" max="300"/>
+      <summary>Souplesse du suivi (ms)</summary>
+      <description>0 = instantané. Plus la valeur est grande, plus l'animation est douce.</description>
+    </key>
+    <key name="restore-ms" type="d">
+      <default>90</default>
+      <range min="0" max="500"/>
+      <summary>Durée du retour (ms)</summary>
+      <description>Vitesse à laquelle les icônes reviennent à leur taille normale.</description>
+    </key>
+  </schema>
+</schemalist>

@@ -1,0 +1,8 @@
+{
+  "uuid": "circular-dock-wave@enock.local",
+  "name": "Fixed Tray Circular Dock Wave",
+  "description": "macOS style dock wave: the real Dash to Dock icons scale up smoothly, the tray stays fixed.",
+  "shell-version": ["50"],
+  "settings-schema": "org.gnome.shell.extensions.circular-dock-wave",
+  "version": 4
+}

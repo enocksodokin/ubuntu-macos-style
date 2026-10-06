@@ -1,0 +1,341 @@
+/* ============================================================
+   PROFESSIONAL BENTO DASHBOARD — GNOME 50
+   ============================================================ */
+
+.bento-left {
+    spacing: 28px;
+}
+
+.bento-right {
+    spacing: 11px;
+}
+
+.bento-row,
+.right-top-row {
+    spacing: 11px;
+}
+
+.right-side {
+    spacing: 11px;
+}
+
+.bento-card {
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.17);
+    background-color: rgba(13,18,27,0.48);
+    box-shadow:
+        inset 0 1px 0 rgba(255,255,255,0.10),
+        0 10px 30px rgba(0,0,0,0.24);
+    color: white;
+}
+
+.bento-card:hover {
+    background-color: rgba(20,26,37,0.59);
+    border-color: rgba(255,255,255,0.25);
+}
+
+.bento-title {
+    font-size: 11px;
+    font-weight: 700;
+    color: rgba(255,255,255,0.75);
+}
+
+.bento-subtitle {
+    font-size: 8px;
+    color: rgba(255,255,255,0.45);
+}
+
+.bento-detail {
+    font-size: 9px;
+    color: rgba(255,255,255,0.58);
+}
+
+.bento-value {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.bento-value-big {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.metric-row {
+    spacing: 12px;
+}
+
+.metric-text {
+    spacing: 1px;
+}
+
+.between-row {
+    spacing: 10px;
+}
+
+.cpu-card {
+    width: 235px;
+    min-height: 115px;
+    padding: 14px;
+    spacing: 7px;
+}
+
+.square-card {
+    width: 116px;
+    min-height: 115px;
+    padding: 14px;
+    spacing: 4px;
+}
+
+.square-value {
+    font-size: 27px;
+    font-weight: 700;
+    padding-top: 10px;
+}
+
+.wide-card {
+    width: 235px;
+    min-height: 100px;
+    padding: 14px;
+    spacing: 9px;
+}
+
+.progress-track {
+    width: 250px;
+    height: 7px;
+    border-radius: 7px;
+    background-color: rgba(255,255,255,0.09);
+}
+
+.progress-fill {
+    height: 7px;
+    border-radius: 7px;
+    background-color: rgba(73,181,255,0.92);
+}
+
+.network-card {
+    width: 215px;
+    min-height: 84px;
+    padding: 13px;
+    spacing: 3px;
+}
+
+.network-value {
+    font-size: 15px;
+    font-weight: 650;
+    color: rgba(94,195,255,0.95);
+}
+
+.network-value.secondary {
+    color: rgba(205,112,255,0.95);
+}
+
+.mini-card {
+    width: 136px;
+    min-height: 84px;
+    padding: 13px;
+    spacing: 2px;
+}
+
+.bento-icon {
+    icon-size: 18px;
+    color: rgba(255,255,255,0.72);
+}
+
+.mini-value {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+/* RIGHT — giant clock deliberately removed */
+
+.agenda-card {
+    width: 338px;
+    min-height: 272px;
+    padding: 16px;
+    spacing: 12px;
+}
+
+.agenda-title {
+    font-size: 13px;
+    font-weight: 800;
+    color: rgba(255,255,255,0.95);
+}
+
+.agenda-status {
+    font-size: 8px;
+    font-weight: 700;
+    color: rgba(114,232,173,0.95);
+    padding-top: 3px;
+}
+
+.agenda-content {
+    spacing: 7px;
+}
+
+.agenda-event {
+    min-height: 52px;
+    padding: 7px 8px;
+    spacing: 9px;
+    border-radius: 12px;
+    border-left-width: 3px;
+    background-color: rgba(255,255,255,0.035);
+}
+
+.agenda-next-event {
+    background-color: rgba(84,162,255,0.10);
+}
+
+.accent-blue { border-left-color: rgba(64,139,255,0.95); }
+.accent-orange { border-left-color: rgba(255,113,73,0.95); }
+.accent-pink { border-left-color: rgba(220,56,106,0.95); }
+.accent-green { border-left-color: rgba(25,201,132,0.95); }
+
+.agenda-timebox {
+    width: 47px;
+    spacing: 0;
+}
+
+.agenda-time {
+    font-size: 11px;
+    font-weight: 700;
+    color: rgba(255,255,255,0.95);
+}
+
+.agenda-end {
+    font-size: 8px;
+    color: rgba(255,255,255,0.45);
+}
+
+.agenda-event-text {
+    width: 235px;
+}
+
+.agenda-event-title {
+    font-size: 10px;
+    font-weight: 650;
+    color: rgba(255,255,255,0.94);
+}
+
+.agenda-event-detail {
+    font-size: 8px;
+    color: rgba(255,255,255,0.47);
+}
+
+.agenda-more,
+.agenda-empty {
+    font-size: 9px;
+    color: rgba(255,255,255,0.52);
+}
+
+.agenda-empty-title {
+    font-size: 12px;
+    font-weight: 650;
+    color: rgba(255,255,255,0.92);
+}
+
+.weather-card {
+    width: 145px;
+    min-height: 130px;
+    padding: 14px;
+    spacing: 1px;
+}
+
+.weather-icon {
+    font-size: 25px;
+}
+
+.weather-temp {
+    font-size: 27px;
+    font-weight: 700;
+}
+
+.weather-city {
+    font-size: 9px;
+    font-weight: 650;
+    color: rgba(255,255,255,0.66);
+}
+
+.next-card {
+    width: 145px;
+    min-height: 130px;
+    padding: 14px;
+    spacing: 2px;
+}
+
+.next-time {
+    font-size: 28px;
+    font-weight: 700;
+    padding-top: 7px;
+}
+
+.next-title {
+    font-size: 9px;
+    font-weight: 650;
+    color: rgba(255,255,255,0.83);
+}
+
+.music-card {
+    width: 494px;
+    min-height: 92px;
+    padding: 14px 16px;
+}
+
+.music-row {
+    spacing: 13px;
+}
+
+.music-icon {
+    icon-size: 38px;
+    color: rgba(180,199,255,0.90);
+}
+
+.music-text {
+    width: 360px;
+    spacing: 2px;
+}
+
+.music-title {
+    font-size: 13px;
+    font-weight: 700;
+    color: rgba(255,255,255,0.95);
+}
+
+.music-artist {
+    font-size: 10px;
+    color: rgba(255,255,255,0.52);
+}
+
+.music-state {
+    font-size: 19px;
+    color: rgba(255,255,255,0.88);
+}
+
+/* Overview search kept professional */
+#overview .search-entry,
+.search-entry {
+    width: 440px;
+    min-height: 38px;
+    padding: 5px 18px;
+    border-radius: 22px;
+    border: 1px solid rgba(255,255,255,0.18);
+    background-color: rgba(22,26,34,0.54);
+    color: rgba(255,255,255,0.97);
+    box-shadow:
+        inset 0 1px 0 rgba(255,255,255,0.11),
+        0 8px 28px rgba(0,0,0,0.19);
+}
+
+.agenda-reconnect {
+    margin-top: 8px;
+    padding: 5px 14px;
+    border-radius: 12px;
+    font-size: 11px;
+    font-weight: 700;
+    color: rgba(5,16,26,0.96);
+    background-color: rgba(73,181,255,0.92);
+}
+
+.agenda-reconnect:hover,
+.agenda-reconnect:focus {
+    background-color: rgba(120,206,255,1);
+}

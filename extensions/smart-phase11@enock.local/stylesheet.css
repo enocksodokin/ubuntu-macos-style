@@ -1,0 +1,81 @@
+.p11-dashboard { spacing: 11px; }
+.p11-top-row { spacing: 11px; }
+.p11-side { spacing: 11px; }
+
+.p11-card {
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.17);
+    background-color: rgba(13,18,27,0.50);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.10), 0 10px 30px rgba(0,0,0,0.25);
+    color: white;
+}
+.p11-card:hover { background-color: rgba(20,26,37,0.60); border-color: rgba(255,255,255,0.25); }
+.p11-title { font-size: 12px; font-weight: 800; color: rgba(255,255,255,0.93); }
+.p11-live { font-size: 8px; font-weight: 800; color: rgba(82,196,255,0.96); }
+.p11-between { spacing: 12px; }
+.p11-detail { font-size: 9px; color: rgba(255,255,255,0.52); }
+
+.p11-activity { width: 350px; min-height: 272px; padding: 16px; spacing: 13px; }
+.p11-app-row { spacing: 13px; }
+.p11-app-icon { icon-size: 39px; color: rgba(102,190,255,0.96); }
+.p11-app-text { spacing: 2px; }
+.p11-app-name { font-size: 15px; font-weight: 750; color: rgba(255,255,255,0.97); }
+.p11-meta { font-size: 10px; color: rgba(255,255,255,0.65); }
+.p11-meta-accent { font-size: 10px; font-weight: 650; color: rgba(111,194,255,0.95); }
+.p11-divider { background-color: rgba(255,255,255,0.10); }
+.p11-media-row { spacing: 11px; }
+.p11-media-icon { icon-size: 31px; color: rgba(185,201,255,0.91); }
+.p11-media-text { width: 245px; spacing: 2px; }
+.p11-media-title { font-size: 11px; font-weight: 700; color: rgba(255,255,255,0.92); }
+.p11-media-state { font-size: 15px; color: rgba(104,196,255,0.93); }
+
+.p11-weather { width: 155px; min-height: 130px; padding: 14px; spacing: 1px; }
+.p11-weather-icon { font-size: 25px; }
+.p11-weather-temp { font-size: 27px; font-weight: 700; }
+.p11-weather-city { font-size: 9px; font-weight: 650; color: rgba(255,255,255,0.68); }
+
+.p11-focus { width: 155px; min-height: 130px; padding: 13px; spacing: 7px; }
+.p11-focus-head { spacing: 7px; }
+.p11-focus-icon { icon-size: 16px; color: rgba(105,194,255,0.94); }
+.p11-focus-modes { spacing: 5px; }
+.p11-focus-mode {
+    min-width: 34px; padding: 3px 6px; border-radius: 9px;
+    border: 1px solid rgba(255,255,255,0.10);
+    background-color: rgba(255,255,255,0.07);
+    color: rgba(255,255,255,0.66); font-size: 8px;
+}
+.p11-focus-mode.active { background-color: rgba(73,181,255,0.92); color: rgba(6,15,25,0.96); }
+.p11-focus-time { font-size: 27px; font-weight: 700; color: rgba(255,255,255,0.96); }
+.p11-focus-controls { spacing: 6px; }
+.p11-focus-btn {
+    min-width: 30px; min-height: 30px; border-radius: 15px;
+    border: 1px solid rgba(255,255,255,0.12);
+    background-color: rgba(255,255,255,0.07); color: rgba(255,255,255,0.87);
+}
+.p11-focus-btn.primary { background-color: rgba(73,181,255,0.92); color: rgba(5,16,26,0.96); }
+
+.p11-coverflow {
+    border-radius: 26px;
+    border: 1px solid rgba(255,255,255,0.18);
+    background-color: rgba(10,15,24,0.78);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.10), 0 18px 55px rgba(0,0,0,0.42);
+    color: white;
+}
+.p11-coverflow-title { font-size: 12px; font-weight: 800; color: rgba(255,255,255,0.95); }
+.p11-coverflow-counter { font-size: 10px; font-weight: 700; color: rgba(102,190,255,0.95); }
+.p11-coverflow-hint { font-size: 10px; color: rgba(255,255,255,0.50); }
+.p11-window-card {
+    border-radius: 18px;
+    border: 1px solid rgba(255,255,255,0.13);
+    background-color: rgba(18,24,34,0.82);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.30);
+    padding: 8px;
+}
+.p11-window-card:hover, .p11-window-card.selected {
+    border-color: rgba(105,190,255,0.80);
+    background-color: rgba(27,38,54,0.94);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.12), 0 14px 42px rgba(48,140,255,0.28);
+}
+.p11-window-box { spacing: 7px; }
+.p11-window-title { font-size: 10px; font-weight: 650; color: rgba(255,255,255,0.92); }
+.p11-window-fallback { border-radius: 12px; background-color: rgba(255,255,255,0.06); }

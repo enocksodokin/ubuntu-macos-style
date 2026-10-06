@@ -1,0 +1,28 @@
+[desktop/interface]
+accent-color='blue'
+color-scheme='prefer-dark'
+cursor-theme='WhiteSur-cursors'
+enable-animations=true
+enable-hot-corners=true
+gtk-theme='WhiteSur-Dark-blue'
+icon-theme='WhiteSur'
+
+[desktop/wm/preferences]
+button-layout='close,minimize,maximize:'
+
+[mutter]
+dynamic-workspaces=true
+edge-tiling=false
+
+[mutter/keybindings]
+toggle-tiled-left=@as []
+toggle-tiled-right=@as []
+
+[desktop/peripherals/touchpad]
+two-finger-scrolling-enabled=true
+
+[desktop/background]
+color-shading-type='solid'
+picture-options='zoom'
+primary-color='#000000000000'
+secondary-color='#000000000000'
